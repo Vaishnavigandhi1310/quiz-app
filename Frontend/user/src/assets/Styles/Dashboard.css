@@ -1,0 +1,71 @@
+
+.questionNumber {
+  font-size: 20px;
+  color: #464141;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px;
+  list-style-type: none; 
+  padding-left: 0; 
+  margin: 0; 
+  justify-items: center;
+  background-color: #73c9ff; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.questionNumber li {
+  display: flex;
+  justify-content: center; 
+}
+
+
+.numberbtn {
+  height: 45px !important;
+  width: 45px !important;
+  border-radius: 50%;
+  border: 2px solid #99b3d999; 
+  background-color: #95afdd; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
+}
+
+.numberbtn:hover {
+  background-color: #0764c2;
+  transform: scale(1.1);
+  border-color: #0a74da; 
+}
+
+.currentQuestion {
+  background-color: #3548b5; 
+  color: rgb(218, 8, 8);
+  border-color: #0a4b88; 
+}
+
+/* Styling for answered questions (green) */
+.answeredQuestion {
+  background-color: #68b567; /* Fresh Green */
+  color: rgb(231, 226, 98);
+  border-color: #4e8b50; /* Dark Green */
+}
+
+.unansweredQuestion {
+  background-color: #f9f9f9;
+  color: #464141;
+  border-color: #d1d1d1;
+}
+
+
+
+.navbar {
+  background-color: #73c9ff !important;  
+}
+
+.answered{
+  background-color: #68b567; /* Fresh Green */
+}
